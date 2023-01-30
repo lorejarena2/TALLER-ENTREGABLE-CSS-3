@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.padre div{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
